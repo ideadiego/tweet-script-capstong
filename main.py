@@ -1,3 +1,5 @@
+from top_tweets import top_tweets
+
 if __name__ == "__main__":
     print("""
 Elige función: 
@@ -10,4 +12,14 @@ Elige función:
         print("Elige de nuevo")
         a = input()
     print("Elegiste", a)
-    # ejecutar funciones
+    if a == '1':
+        top_tweets()
+    elif a == '2':
+        pass
+        # top_users()
+    elif a == '3':
+        pass
+        # top_days()
+    else:
+        pass
+        # top_hashtags()
