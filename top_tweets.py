@@ -1,5 +1,6 @@
 import json
 def top_tweets():
+    print("calculando top tweets...")
     with open('farmers-protest-tweets-2021-03-5.json', 'r') as data:
         entries = []
         for line in data.readlines():
